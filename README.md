@@ -13,7 +13,7 @@ with CRUD functionality
 
 --MongoDB Local Setup--
 
-8. [I'm an inline-style link](https://www.mongodb.com/try/download/compass)
+[I'm an inline-style link](https://www.mongodb.com/try/download/compass)
 9. Under "On-premises MongoDB MongoDB locally", Download MongoDB Community Server
 10. Install and run
 11. MongoDB should be running on port 27017 by default. If running on a different
