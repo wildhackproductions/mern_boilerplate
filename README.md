@@ -20,6 +20,13 @@ with CRUD functionality
 port, the mongoURI key value pair within the config/default.json file will need
 to be changed to specify the port number
 
+--Heroku Deployment Prep--
+12. You will need to create a MongoDB database on mLab.com (or something similar)
+13. After deployment, you will need to set process.env variables for:
+- mongodb_username
+- mondodb_password
+- mondodb_dbname
+
 
 You should now see the port number that your server is running on (default 5000)
 and the frontend display in your browser
