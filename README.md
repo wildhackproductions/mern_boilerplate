@@ -3,6 +3,9 @@ with CRUD functionality
 
 **Installation**
 
+Video tutorial for setup can be found here:
+https://www.youtube.com/watch?v=gI_GyGqwTp4
+
 1. Download .zip or pull repository
 2. In command prompt, cd into react_boilerplate-main
 3. run "npm install"
@@ -13,14 +16,15 @@ with CRUD functionality
 
 --MongoDB Local Setup--
 
-8. (https://www.mongodb.com/try/download/compass)
+8. https://www.mongodb.com/try/download/compass
 9. Under "On-premises MongoDB MongoDB locally", Download MongoDB Community Server
 10. Install and run
 11. MongoDB should be running on port 27017 by default. If running on a different
 port, the mongoURI key value pair within the config/default.json file will need
 to be changed to specify the port number
 
---Heroku Deployment Prep--
+--Heroku Deployment Preparation--
+
 12. You will need to create a MongoDB database on mLab.com (or something similar)
 13. After deployment, you will need to set process.env variables for:
 - mongodb_username
